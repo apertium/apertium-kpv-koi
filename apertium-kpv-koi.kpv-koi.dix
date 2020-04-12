@@ -35,6 +35,34 @@
     <sdef n="p2"       c="Second person"/>
     <sdef n="p3"       c="Third person"/>
 
+    <sdef n="s_p1"       c="First person subject"/>
+    <sdef n="s_p2"       c="Second person subject"/>
+    <sdef n="s_p3"       c="Third person subject"/>
+
+    <sdef n="a_p1"       c="First person agent"/>
+    <sdef n="a_p2"       c="Second person agent"/>
+    <sdef n="a_p3"       c="Third person agent"/>
+
+    <sdef n="o_p1"       c="First person object"/>
+    <sdef n="o_p2"       c="Second person object"/>
+    <sdef n="o_p3"       c="Third person object"/>
+
+    <sdef n="sg"       c="Singular"/>
+    <sdef n="pl"       c="Plural"/>
+    <sdef n="sp"      c="Singular/Plural"/>
+
+    <sdef n="s_sg"       c="Singular subject"/>
+    <sdef n="s_pl"       c="Plural subject"/>
+    <sdef n="s_sp"      c="Singular/Plural subject"/>
+
+    <sdef n="a_sg"       c="Singular agent"/>
+    <sdef n="a_pl"       c="Plural agent"/>
+    <sdef n="a_sp"      c="Singular/Plural agent"/>
+
+    <sdef n="o_sg"       c="Singular object"/>
+    <sdef n="o_pl"       c="Plural object"/>
+    <sdef n="o_sp"      c="Singular/Plural object"/>
+
     <sdef n="sg1"      c="First-person singular"/>
     <sdef n="sg2"      c="Second-person singular"/>
     <sdef n="sg3"      c="Third-person singular"/>
@@ -48,10 +76,6 @@
     <sdef n="pxpl1"    c="First-person plural possessive suffix"/>
     <sdef n="pxpl2"    c="Second-person plural possessive suffix"/>
     <sdef n="pxpl3"    c="Third-person plural possessive suffix"/>
-
-    <sdef n="sg"       c="Singular"/>
-    <sdef n="pl"       c="Plural"/>
-    <sdef n="sp"      c="Singular/Plural"/>
 
     <sdef n="abe"      c="Abessive"/>
     <sdef n="abl"      c="Ablative"/>
@@ -113,6 +137,7 @@
 
     <sdef n="inf"     c="infinitive"/>
     <sdef n="pres"     c="Present"/>
+    <sdef n="fut"     c="Future"/>
     <sdef n="pret1"     c="First Preterite"/>
     <sdef n="pret2"     c="Second Preterite"/>
     <sdef n="prfprc"  c="Perfect participle"/>
@@ -172,6 +197,7 @@
       <e><p><l>дорын<s n="adp"/></l><r>дорын<s n="adp"/></r></p></e>
       <e><p><l>улӧ<s n="adp"/></l><r>улӧ<s n="adp"/></r></p></e>
       <e><p><l>улын<s n="adp"/></l><r>увтын<s n="adp"/></r></p></e>
+      <e><p><l>вылын<s n="adp"/></l><r>вылын<s n="adp"/></r></p></e>
 
       <!-- SECTION: Determiners -->
 
@@ -201,6 +227,13 @@
       <e><p><l>дзоридз<s n="n"/></l><r>цвет<s n="n"/></r></p></e>
       <e><p><l>тӧвру<s n="n"/></l><r>тӧлок<s n="n"/></r></p></e>
       <e><p><l>ю<s n="n"/></l><r>ю<s n="n"/></r></p></e>
+      <e><p><l>горт<s n="n"/></l><r>горт<s n="n"/></r></p></e>
+      <e><p><l>вежон<s n="n"/></l><r>неделя<s n="n"/></r></p></e>
+      <e><p><l>яй<s n="n"/></l><r>тело<s n="n"/></r></p></e>
+      <e><p><l>пельпом<s n="n"/></l><r>пельпон<s n="n"/></r></p></e>
+      <e><p><l>тшак<s n="n"/></l><r>тшак<s n="n"/></r></p></e>
+      <e><p><l>юр<s n="n"/></l><r>юр<s n="n"/></r></p></e>
+      <e><p><l>дум<s n="n"/></l><r>дума<s n="n"/></r></p></e>
       <e><p><l>чужӧм<s n="n"/></l><r>чужӧм<s n="n"/></r></p></e>
       <e><p><l>гы<s n="n"/></l><r>вал<s n="n"/></r></p></e>
       <e><p><l>вугыр<b/>таб<s n="n"/></l><r>поплавок<s n="n"/></r></p></e>
@@ -230,28 +263,41 @@
       <e><p><l>крепыд<s n="adj"/></l><r>крепыт<s n="adj"/></r></p></e>
       <e><p><l>кыпыд<s n="adj"/></l><r>кокнит<s n="adj"/></r></p></e>
       <e><p><l>гажа<s n="adj"/></l><r>гажа<s n="adj"/></r></p></e>
+      <e><p><l>июль<b/>тӧлысся<s n="adj"/></l><r>июльскӧй<s n="adj"/></r></p></e>
 
 
       <!-- SECTION: Adverbs -->
 
       <e><p><l>кор<s n="adv"/></l><r>кӧр<s n="adv"/></r></p></e>
+
+      <e><p><l>гажаа<s n="adv"/></l><r>кӧр<s n="adv"/></r></p></e>
+      <e><p><l>гӧгӧр<s n="adv"/></l><r>быдлаын<s n="adv"/></r></p></e> <!-- look at this -->
+      <e><p><l>тані<s n="adv"/></l><r>татӧн<s n="adv"/></r></p></e>
+      <e><p><l>татысь<s n="adv"/></l><r>татісь<s n="adv"/></r></p></e>
+
       <e><p><l>пыр<s n="adv"/></l><r>пыр<s n="adv"/></r></p></e>
       <e><p><l>сэк<s n="adv"/></l><r>сэк<s n="adv"/></r></p></e>
       <e><p><l>бара<s n="adv"/></l><r>бӧра<s n="adv"/></r></p></e>
       <e><p><l>нин<s n="adv"/></l><r>сэк<s n="adv"/></r></p></e>
+      <e><p><l>кольӧм<b/>во<s n="adv"/></l><r>мӧйму<s n="adv"/></r></p></e>
 
+      
 
 
       <!-- SECTION: Verbs -->
       <e><p><l>оз<s n="vblex"/><s n="neg"/></l><r>оз<s n="vblex"/><s n="neg"/></r></p></e>
 
+      <e><p><l>пырны<s n="vblex"/><s n="iv"/></l><r>пырны<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>пыравны<s n="vblex"/><s n="iv"/></l><r>пыравны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>сёйны<s n="vblex"/><s n="tv"/></l><r>сёйны<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>сёйны<s n="vblex"/><s n="iv"/></l><r>сёйны<s n="vblex"/><s n="iv"/></r></p></e>
 
+      <e><p><l>вӧчны<s n="vblex"/><s n="tv"/></l><r>карны<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>пӧльыштны<s n="vblex"/><s n="iv"/></l><r>пӧльтыштны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>чукырӧссьыны<s n="vblex"/><s n="iv"/></l><r>моршитчыны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>тэрмасьны<s n="vblex"/><s n="iv"/></l><r>тэрмасьны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>локны<s n="vblex"/><s n="iv"/></l><r>локны<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>петны<s n="vblex"/><s n="iv"/></l><r>петны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>вӧрӧдны<s n="vblex"/><s n="iv"/></l><r>вӧрӧтны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>дрӧгнитны<s n="vblex"/><s n="iv"/></l><r>дрӧгнитны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>заводитны<s n="vblex"/><s n="iv"/></l><r>пондыны<s n="vblex"/><s n="iv"/></r></p></e>
@@ -260,31 +306,10 @@
 
       <!-- SECTION: Interjections -->
       <e><p><l>ага<s n="ij"/></l><r>ага<s n="ij"/></r></p></e>
-      <e><p><l>адя<s n="ij"/></l><r>аде<s n="ij"/></r></p></e>
-      <e><p><l>адядо<s n="ij"/></l><r>адяда<s n="ij"/></r></p></e>
-      <e><p><l>адядо<s n="ij"/></l><r>аряда<s n="ij"/></r></p></e>
-      <e><p><l>азё<s n="ij"/></l><r>архт<s n="ij"/></r></p></e>
-      <e><p><l>азёдо<s n="ij"/></l><r>арда<s n="ij"/></r></p></e>
-      <e><p><l>арась<s n="ij"/></l><r>аяф<s n="ij"/></r></p></e>
-      <e><p><l>аютко<s n="ij"/></l><r>аш<b/>пинге<s n="ij"/></r></p></e>
-      <e><p><l>вага<s n="ij"/></l><r>вага<s n="ij"/></r></p></e>
-      <e><p><l>вай<s n="ij"/></l><r>вай<s n="ij"/></r></p></e>
-      <e><p><l>вана<s n="ij"/></l><r>вана<s n="ij"/></r></p></e>
-      <e><p><l>да<s n="ij"/></l><r>да<s n="ij"/></r></p></e>
-      <e><p><l>инеськеть<s n="ij"/></l><r>эсь<s n="ij"/></r></p></e>
-      <e><p><l>на<s n="ij"/></l><r>на<s n="ij"/></r></p></e>
-      <e><p><l>оргодть<s n="ij"/></l><r>ворьть<s n="ij"/></r></p></e>
-      <e><p><l>пандя<s n="ij"/></l><r>пандя<s n="ij"/></r></p></e>
-      <e><p><l>пандя<s n="ij"/></l><r>саты<s n="ij"/></r></p></e>
-      <e><p><l>саты<s n="ij"/></l><r>саты<s n="ij"/></r></p></e>
-      <e><p><l>ужо<s n="ij"/></l><r>ожу<s n="ij"/></r></p></e>
-      <e><p><l>ужодо<s n="ij"/></l><r>ожуда<s n="ij"/></r></p></e>
-      <e><p><l>уледе<b/>шумбрат<s n="ij"/></l><r>уледа<b/>шумбрат<s n="ij"/></r></p></e>
-      <e><p><l>ульть<b/>шумбра<s n="ij"/></l><r>ульхть<b/>шумбра<s n="ij"/></r></p></e>
-      <e><p><l>шумбрат<s n="ij"/></l><r>шумбрат<s n="ij"/></r></p></e>
-      <e><p><l>шумбратадо<s n="ij"/></l><r>шумбратада<s n="ij"/></r></p></e>
-      <e><p><l>шумбрачи<s n="ij"/></l><r>шумбраши<s n="ij"/></r></p></e>
-      <e><p><l>эрь<s n="ij"/></l><r>эрь<s n="ij"/></r></p></e>
+
+      <e><p><l>тырмыны<s n="vblex"/><s n="iv"/><s n="indic"/><s n="fut"/><s n="sg3"/></l><r>тырмыны<s n="vblex"/><s n="iv"/><s n="indic"/><s n="fut"/><s n="sg3"/></r></p></e>
+
+      <e><p><l>вай<s n="ij"/></l><r>давай<s n="ij"/></r></p></e>
       
       
       <!-- SECTION: Punctuation -->

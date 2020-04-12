@@ -15,8 +15,19 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="prpers">
+      <cat-item tags="prn.*"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
+    </def-cat>
+    <def-cat n="vrb">
+      <cat-item tags="vblex.*"/>
+    </def-cat> 
+    <def-cat n="tense.v">
+      <cat-item tags="vblex.*.*.pres.*"/>
+      <cat-item tags="vblex.*.*.pret1.*"/>
+      <cat-item tags="vblex.*.*.pret2.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -39,6 +50,13 @@
       <attr-item tags="temp"/>
       <attr-item tags="prl"/>
       <attr-item tags="tra"/>
+    </def-attr>
+    <def-attr n="a_mood">
+      <attr-item tags="cond"/>
+      <attr-item tags="imprt"/>
+      <attr-item tags="imp"/>
+      <attr-item tags="indic"/>
+      <attr-item tags="prec"/>
     </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
@@ -351,6 +369,17 @@
       <attr-item tags="@VOC"/>
       <attr-item tags="@X"/>
 
+    </def-attr>
+    <def-attr n="temps">
+      <attr-item tags="pres"/>
+      <attr-item tags="pret1"/>
+      <attr-item tags="pret2"/>
+    </def-attr>
+    <def-attr n="a_verb">
+      <attr-item tags="vblex"/>
+      <attr-item tags="vblex.neg"/>
+      <attr-item tags="vaux"/>
+      <attr-item tags="vbmod"/>
     </def-attr>
   </section-def-attrs>
 

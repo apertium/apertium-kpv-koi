@@ -28,6 +28,7 @@ MAP (Foc/son) ("son" pcle);
 MAP (Superl) (sup);
 MAP (Sup) (supn);
 MAP (Interr) (itg);
+MAP (Fut) (fut);
 MAP (Prt) (pret);
 MAP (Prs) (pres);
 MAP (A) (adj);
