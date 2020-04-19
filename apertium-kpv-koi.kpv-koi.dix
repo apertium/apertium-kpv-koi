@@ -237,7 +237,9 @@
       <e><p><l>чужӧм<s n="n"/></l><r>чужӧм<s n="n"/></r></p></e>
       <e><p><l>гы<s n="n"/></l><r>вал<s n="n"/></r></p></e>
       <e><p><l>вугыр<b/>таб<s n="n"/></l><r>поплавок<s n="n"/></r></p></e>
+      <e><p><l>мыш<s n="n"/></l><r>спина<s n="n"/></r></p></e>
       <e><p><l>здук<s n="n"/></l><r>кад<s n="n"/></r></p></e>
+      <e><p><l>вӧр<s n="n"/></l><r>рас<s n="n"/></r></p></e>
       <e><p><l>ув<s n="n"/></l><r>ув<s n="n"/></r></p></e>
 
       <e><p><l>руч<s n="n"/></l><r>руч<s n="n"/></r></p></e>
@@ -287,12 +289,14 @@
       <!-- SECTION: Verbs -->
       <e><p><l>оз<s n="vblex"/><s n="neg"/></l><r>оз<s n="vblex"/><s n="neg"/></r></p></e>
 
+      <e><p><l>вошны<s n="vblex"/><s n="iv"/></l><r>ӧшны<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>вӧчны<s n="vblex"/><s n="tv"/></l><r>карны<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>пырны<s n="vblex"/><s n="iv"/></l><r>пырны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пыравны<s n="vblex"/><s n="iv"/></l><r>пыравны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>сёйны<s n="vblex"/><s n="tv"/></l><r>сёйны<s n="vblex"/><s n="tv"/></r></p></e>
       <e><p><l>сёйны<s n="vblex"/><s n="iv"/></l><r>сёйны<s n="vblex"/><s n="iv"/></r></p></e>
 
-      <e><p><l>вӧчны<s n="vblex"/><s n="tv"/></l><r>карны<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>люньгысьны<s n="vblex"/><s n="iv"/></l><r>ӧшӧтчыны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>пӧльыштны<s n="vblex"/><s n="iv"/></l><r>пӧльтыштны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>чукырӧссьыны<s n="vblex"/><s n="iv"/></l><r>моршитчыны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>тэрмасьны<s n="vblex"/><s n="iv"/></l><r>тэрмасьны<s n="vblex"/><s n="iv"/></r></p></e>
@@ -301,7 +305,14 @@
       <e><p><l>вӧрӧдны<s n="vblex"/><s n="iv"/></l><r>вӧрӧтны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>дрӧгнитны<s n="vblex"/><s n="iv"/></l><r>дрӧгнитны<s n="vblex"/><s n="iv"/></r></p></e>
       <e><p><l>заводитны<s n="vblex"/><s n="iv"/></l><r>пондыны<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>пӧльтыштны<s n="vblex"/><s n="iv"/></l><r>пӧльтыштны<s n="vblex"/><s n="iv"/></r></p></e>
+      <e><p><l>тэрмасьны<s n="vblex"/><s n="iv"/></l><r>тэрмасьны<s n="vblex"/><s n="iv"/></r></p></e>
 
+      <e><p><l>шензьӧдны<s n="vblex"/><s n="tv"/></l><r>дивитны<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>шӧпкӧдчыны<s n="vblex"/><s n="iv"/></l><r>шушкӧтчыны<s n="vblex"/><s n="tv"/></r></p></e>
+      <e><p><l>чукырӧссьыны<s n="vblex"/><s n="iv"/></l><r>моршитчыны<s n="vblex"/><s n="iv"/></r></p></e>
+
+      
 <!--   superscript numbers for homonymy арсемс¹, арсемс² -->
 
       <!-- SECTION: Interjections -->
