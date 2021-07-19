@@ -1,0 +1,10 @@
+{
+    "koi-kpv": {
+        "input": "koi-kpv-input.txt",
+        "mode": "koi-kpv"
+    },
+    "kpv-koi": {
+        "input": "kpv-koi-input.txt",
+        "mode": "kpv-koi"
+    }
+}

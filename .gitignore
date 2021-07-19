@@ -23,3 +23,6 @@
 *-loc
 *.pl
 .DS_Store
+/*.zhfst
+/.DS_Store
+/test/*-output.txt

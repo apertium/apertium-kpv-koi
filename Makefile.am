@@ -223,10 +223,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "тӧвруысь" | apertium -d . kpv-koi | tee .test-mt
-	@echo "тӧлокись" > .test-ref
-	@diff .test-ref .test-mt
-	echo "басӧк" | apertium -d . koi-kpv | tee .test-mt
-	@echo "мича" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test
