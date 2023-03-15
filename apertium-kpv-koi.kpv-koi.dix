@@ -191,13 +191,13 @@
       
       <!-- SECTION: Adpositions -->
 
-      <e><p><l>сайсянь<s n="adp"/></l><r>сайсянь<s n="adp"/></r></p></e>
-      <e><p><l>сайын<s n="adp"/></l><r>сайын<s n="adp"/></r></p></e>
-      <e><p><l>дорӧдз<s n="adp"/></l><r>дынӧдз<s n="adp"/></r></p></e>
-      <e><p><l>дорын<s n="adp"/></l><r>дорын<s n="adp"/></r></p></e>
-      <e><p><l>улӧ<s n="adp"/></l><r>улӧ<s n="adp"/></r></p></e>
-      <e><p><l>улын<s n="adp"/></l><r>увтын<s n="adp"/></r></p></e>
-      <e><p><l>вылын<s n="adp"/></l><r>вылын<s n="adp"/></r></p></e>
+      <e><p><l>сайсянь<s n="post"/></l><r>сайсянь<s n="post"/></r></p></e>
+      <e><p><l>сайын<s n="post"/></l><r>сайын<s n="post"/></r></p></e>
+      <e><p><l>дорӧдз<s n="post"/></l><r>дынӧдз<s n="post"/></r></p></e>
+      <e><p><l>дорын<s n="post"/></l><r>дорын<s n="post"/></r></p></e>
+      <e><p><l>улӧ<s n="post"/></l><r>улӧ<s n="post"/></r></p></e>
+      <e><p><l>улын<s n="post"/></l><r>увтын<s n="post"/></r></p></e>
+      <e><p><l>вылын<s n="post"/></l><r>вылын<s n="post"/></r></p></e>
 
       <!-- SECTION: Determiners -->
 
@@ -209,6 +209,7 @@
       <e><p><l>ме<s n="prn"/></l><r>ме<s n="prn"/></r></p></e>
       <e><p><l>тэ<s n="prn"/></l><r>тэ<s n="prn"/></r></p></e>
       <e><p><l>сійӧ<s n="prn"/></l><r>сія<s n="prn"/></r></p></e>
+      <e><p><l>тайӧ<s n="prn"/></l><r>эта<s n="prn"/></r></p></e>
 
   
       <!-- SECTION: Numerals -->
@@ -219,7 +220,8 @@
       <e><p><l>нёль<s n="num"/></l><r>нёль<s n="num"/></r></p></e>
       <e><p><l>вит<s n="num"/></l><r>вить<s n="num"/></r></p></e>
       <e><p><l>квайт<s n="num"/></l><r>квать<s n="num"/></r></p></e>
-      <e><p><l>мӧд<s n="num"/></l><r>мӧдік<s n="num"/></r></p></e>
+      
+      <e><p><l>мӧд<s n="adj"/></l><r>мӧдік<s n="adj"/></r></p></e>
 
 
       <!-- SECTION: Nouns -->
